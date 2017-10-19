@@ -1,0 +1,5 @@
+1. screen -S session_name => creates a new screen session with a specific name attached to its PID.
+2. CTRL + a, d => detaches the active screen sesssion and go back to terminal. The detached screen session will be active.
+3. screen -ls => lists all detached screen sessions.
+4. screen -r (PID or session_name) => reattaches a screen session.
+5. screen -S (PID or session_name) -X quit => kills a specific screen session.
