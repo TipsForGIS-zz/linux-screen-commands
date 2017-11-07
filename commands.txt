@@ -1,3 +1,17 @@
+General Linux commands
+1. which command_name => returns the path(s) of the command that executes the command on the current path i.e. which python
+2. find . -name abc* => lists all files in the current path where the file name starts with abc
+3. cat .bash_profile => outputs the content of the file on the screen
+4. alias some_name='long_command_with_params' => makes an alias for a long command, it can be stored in the .bash_profile
+5. du -shc file_name => prints the file size, also you can use file_name* to print the sizes of multiple files in the current path
+6. du -shc path => prints the path or folder size
+7. grep --color -n -i "text_entry" file_or_path => searches the text_entry in a file or path.
+--color to highlight text_entry, -n to print line number in file, -i to avoid case sensitivity
+i.e. grep "May 31 03" /etc/httpd/logs/error_log
+8.
+
+
+Screen commands
 1. screen -S session_name => creates a new screen session with a specific name attached to its PID.
 2. CTRL + a, d => detaches the active screen sesssion and go back to terminal. The detached screen session will be active.
 3. screen -ls => lists all detached screen sessions.
