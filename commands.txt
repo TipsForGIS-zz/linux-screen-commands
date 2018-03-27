@@ -8,7 +8,7 @@ General Linux commands
 7. grep --color -n -i "text_entry" file_or_path => searches the text_entry in a file or path.
 --color to highlight text_entry, -n to print line number in file, -i to avoid case sensitivity
 i.e. grep "May 31 03" /etc/httpd/logs/error_log
-8.
+8. head -10 file.ext => prints on the screen the first 10 lines of the file. This is handy to see a header of a big file.
 
 
 Screen commands
