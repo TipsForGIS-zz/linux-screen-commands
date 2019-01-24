@@ -9,7 +9,8 @@ General Linux commands
 --color to highlight text_entry, -n to print line number in file, -i to avoid case sensitivity
 i.e. grep "May 31 03" /etc/httpd/logs/error_log
 8. head -10 file.ext => prints on the screen the first 10 lines of the file. This is handy to see a header of a big file.
-8. tail -10 file.ext => prints on the screen the last 10 lines of the file. This is also handy to see a header of a big file.
+9. tail -10 file.ext => prints on the screen the last 10 lines of the file. This is also handy to see a header of a big file.
+10. wc -l file.txt => returns the number of lines in a file
 
 
 Screen commands
